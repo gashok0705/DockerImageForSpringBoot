@@ -4,7 +4,7 @@
 FROM openjdk:8-jdk-alpine
 
 # Add Maintainer Info
-LABEL maintainer="raj@verizon.com"
+LABEL maintainer="raj@abc.com"
 
 # Add a volume pointing to /tmp
 VOLUME /tmp
@@ -31,7 +31,7 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/springboot
 #// http://192.168.99.100:32778/
 
 #[
-#  "rajagopal.ganesan@verizon.com",
-#  "avyakth.k@verizon.com",
-#  "Pavithran.k@verizon.com"
+#  "rajagopal.ganesan@abc.com",
+#  "response.ka@abc.com",
+#  "response.k@abc.com"
 #]
